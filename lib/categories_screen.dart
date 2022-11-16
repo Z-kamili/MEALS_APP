@@ -9,7 +9,7 @@ class CategoriesScreen extends StatelessWidget {
 
      return GridView(children: <Widget>[
        
-       
+        
 
      ],
      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
