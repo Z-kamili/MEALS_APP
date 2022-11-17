@@ -17,7 +17,12 @@ class CategoryItem extends StatelessWidget {
     child:Text(title),
     decoration: BoxDecoration(gradient: LinearGradient(colors: [
       color.withOpacity(0.7)
-    ],),),
+    ],
+    begin:Alignment.topLeft,
+    end:Alignment.bottomRight
+    ),
+    borderRadius: BorderRadius.circular(15),
+    ),
   );
 
  }
